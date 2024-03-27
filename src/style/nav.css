@@ -1,4 +1,5 @@
-*
+/*Start of navigation menu items and background color*/
+*,
 *::after,
 *::before {
     margin: 0;
@@ -10,18 +11,20 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 300;
     overflow-y: scroll;
+    background-color: #1D1D1F;
 }
 
 /* Desktop Nav */
-
 .nav-container {
-    background: rgba(0, 0, 0, 0.8);
-    height: 44px;
+    background: rgba(29, 29, 31, 0.5);
+    height: 53px;
     z-index: 300;
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
+    backdrop-filter: blur(20px);
+    border-bottom: 0.1px solid rgb(83, 90, 97);
 }
 
 .nav-container nav {
@@ -51,16 +54,16 @@ nav .desktop-nav li a:hover {
 }
 
 .link-logo {
-    background: url('Assets\Logo\logo-svg.svg');
+    background: url('../nav-logo.png');
     display: block;
     background-position: center;
-    height: 44px;
-    width: 15px;
+    height: 37px;
+    width: 37px;
     background-repeat: no-repeat;
 }
 
 .link-search {
-    background: url('images/search-icon.svg');
+    background: url('../search-icon.svg');
     display: block;
     background-position: center;
     background-size: 18px;
@@ -69,18 +72,9 @@ nav .desktop-nav li a:hover {
     background-repeat: no-repeat;
 }
 
-.link-bag {
-    background: url('images/bag-icon.svg');
-    display: block;
-    background-position: center;
-    background-size: 17px;
-    height: 44px;
-    width: 20px;
-    background-repeat: no-repeat;
-}
 
 .link-close {
-    background: url('images/close-icon.svg');
+    background: url('../close-icon.svg');
     display: block;
     background-position: center;
     background-size: 17px;
@@ -90,7 +84,6 @@ nav .desktop-nav li a:hover {
 }
 
 /* Search Container */
-
 .search-container.hide {
     opacity: 0;
     pointer-events: none;
@@ -143,7 +136,6 @@ nav .desktop-nav li a:hover {
 }
 
 /* Overlay */
-
 .overlay.show {
     position: fixed;
     background: rgba(0, 0, 0, 0.48);
@@ -155,7 +147,6 @@ nav .desktop-nav li a:hover {
 }
 
 /* Quick Links */
-
 .search-container .quick-links {
     background: #fff;
     position: absolute;
@@ -194,7 +185,6 @@ nav .desktop-nav li a:hover {
 }
 
 /* Desktop Nav Animation */
-
 .desktop-nav li {
     transition: all 400ms ease;
 }
@@ -206,13 +196,11 @@ nav .desktop-nav li a:hover {
 }
 
 /* Overlay Animation */
-
 .overlay {
     transition: all 400ms ease;
 }
 
 /* Navigation Menu Items Transition Delay */
-
 .desktop-nav li:nth-of-type(1),
 .desktop-nav.hide li:nth-of-type(10) {
     transition-delay: 0ms;
@@ -264,7 +252,6 @@ nav .desktop-nav li a:hover {
 }
 
 /* Search Container Animation */
-
 .search-container form,
 .search-container .link-search {
     opacity: 1;
@@ -338,7 +325,6 @@ nav .desktop-nav li a:hover {
 
 
 /* Hidden Items */
-
 .mobile-nav,
 .mobile-search-container {
     display: none;
@@ -346,7 +332,6 @@ nav .desktop-nav li a:hover {
 
 
 /* Media Queries */
-
 @media (max-width: 1100px) {
     .nav-container nav {
         width: 100%;
@@ -405,7 +390,6 @@ nav .desktop-nav li a:hover {
     }
 
     /* Mobile Nav */
-
     nav .mobile-nav {
         display: flex;
         width: 100%;
@@ -476,7 +460,6 @@ nav .desktop-nav li a:hover {
 
 
     /* Search Box */
-
     .mobile-search-container input {
         width: 100%;
         padding: 12px 36px;
@@ -555,7 +538,6 @@ nav .desktop-nav li a:hover {
 
     
     /* Quick Links */
-
     .mobile-search-container .search-bar.active ~ .quick-links {
         top: 80px;
         opacity: 1;
@@ -614,3 +596,5 @@ span,
 a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+/* End of Nav */
