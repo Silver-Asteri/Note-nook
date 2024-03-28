@@ -446,20 +446,6 @@ nav .desktop-nav li a:hover {
         transition-duration: 200ms;
     }
 
-    /* Bag Icon Animation */
-
-    .nav-container.active .mobile-nav .link-bag {
-        transform: translateY(8px);
-        opacity: 0;
-        pointer-events: none;
-    }
-
-    .nav-container .mobile-nav .link-bag {
-        transition: all 1000ms ease;
-    }
-
-
-
     /* Search Box */
     .mobile-search-container input {
         width: 100%;
