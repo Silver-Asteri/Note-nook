@@ -1,20 +1,25 @@
+body {
+    overflow-x: hidden;
+}
+
 .introduction {
-    position: absolute;
-    width: 100%;
-    top: 7.5%;
     text-align: center;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
 .introduction h1 {
-    font-size: 60px;
+    margin-top: 7vh;
+    text-align: center;
+    font-size: 8vh;
     color: #86868B;
     transition: transform 0.5s ease-in-out;
     transform: translateY(0);
 }
 
 .introduction p {
-    font-size: 16px;
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 1.5vh;
     color: white;
     transition: transform 0.5s ease-in-out;
     transform: translateY(0);
@@ -24,51 +29,49 @@
     transform: translateY(-20px); /* Adjust the value as needed */
 }
 
-.content {
-    position: absolute;
-    width: 100%;
-    height: 80%;
+.getting-started {
+    display: flex;
+    margin-top: 3.5vh;
+    max-width: cover;
+    height: 78vh;
     background-color: black;
-    top: 20%;
+    justify-content: center;
 }
-
+/* needs to be editted after the UI id made */
 .ios-app-into {
     position: absolute;
     top: 101;
     right: 3%;
-    width: 300px;
+    width: 100%;
     height: 500px;
     overflow: hidden;
 }
 
 .get-button {
-    position: absolute;
+    margin-top: 64vh;
+    margin-left: 9vh; /*It took some time*/
     text-align: center;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     color: white;
     border: none;
-    border-radius: 30px;
-    top: 80%;
-    left: 47%;
+    border-radius: 2rem;
     background-color: #0071e3;
     padding: 15px 20px;
 }
 
 .text-for-button {
-    position: absolute;
-    top: 90%;
-    left: 41%;
+    margin-top: 2.5vh;
+    text-align: center;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     color: white;
-    font-size: 20px;
+    font-size: 2.4dvh;
 }
 
 .highlights h2{
-    position: absolute;
+    margin-top: 15vh;
+    margin-left: 10vh;
     border: none;
-    top: 125%;
-    left: 7%;
     color: #86868B;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    font-size: 52px;
+    font-size: 7vh;
 }

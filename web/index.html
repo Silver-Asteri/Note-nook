@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <!--navigation bar-->
-    <link rel="stylesheet" href="E:\Github\Note nook\src\style\nav.css">
+    <link rel="stylesheet" href="..\src\style\nav.css">
     <!--The main content-->
-    <link rel="stylesheet" href="E:\Github\Note nook\src\style\main.css">
+    <link rel="stylesheet" href="..\src\style\main.css">
     <!--The cards styling "get the highlights"-->
-    <link rel="stylesheet" href="E:\Github\Note nook\src\style\cards.css">
+    <link rel="stylesheet" href="../src/style/card.css">
     <!--footer-->
 </head>
 <body>
@@ -71,7 +71,7 @@
             <div class="link-search"></div>
             <div class="search-bar">
                 <form action="">
-                    <input type="text" placeholder="Search apple.com">
+                    <input type="text" placeholder="Search Notenook">
                 </form>
             </div>
             <div class="link-close"></div>
@@ -150,7 +150,7 @@
         <p>Notenook is a note-taking app</p>
     </div>
     
-    <div class="content">
+    <div class="getting-started">
         <main>
             <!--add image after preparing the app-->
             <img class="ios-app-intro" src=""/>
@@ -159,56 +159,133 @@
         </main>
     </div>
 
-    <div class="highlights">
-        <main>
-            <h2>Get the highlights</h2>
-            <div class="wrapper">
-                <div class="container">
-                    <input type="radio" name="slide" id="c1" checked>
-                    <label for="c1" class="card">
-                        <div class="row">
-                            <div class="icon">1</div>
-                            <div class="description">
-                                <h4>Winter</h4>
-
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="slide" id="c2" >
-                    <label for="c2" class="card">
-                        <div class="row">
-                            <div class="icon">2</div>
-                            <div class="description">
-                                <h4>Digital Technology</h4>
-                                
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="slide" id="c3" >
-                    <label for="c3" class="card">
-                        <div class="row">
-                            <div class="icon">3</div>
-                            <div class="description">
-                                <h4>Globalization</h4>
-                                
-                            </div>
-                        </div>
-                    </label>
-                    <input type="radio" name="slide" id="c4" >
-                    <label for="c4" class="card">
-                        <div class="row">
-                            <div class="icon">4</div>
-                            <div class="description">
-                                <h4>New technologies</h4>
-                                
-                            </div>
-                        </div>
-                    </label>
-                </div>
-            </div>
-        </main>
+    <div class="highlights" id="highlights">
+        <h2>Get the highlights</h2>
     </div>
 
+    <!--Cards heighlight only for pc-->
+    <div class="box-carousel" id="box-carousel">
+        <!-- carousel -->
+        <div class="carousel">
+           <!-- list item -->
+           <div class="list">
+               <div class="item">
+                   <img src="../src/Temporary/3d-cubes-dark-4k-89.jpg">
+                   <div class="content">
+                       <div class="author">NOTENOOK</div>
+                       <div class="title">DESIGN SLIDER</div>
+                       <div class="topic">ANIMAL</div>
+                       <div class="des">
+                           <!-- description -->
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                       </div>
+                       <div class="buttons">
+                           <button>Explore</button>
+                       </div>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="../src/Temporary/abstract-layers-interwoven-5k-7s.jpg">
+                   <div class="content">
+                       <div class="author">NOTENOOK</div>
+                       <div class="title">DESIGN SLIDER</div>
+                       <div class="topic">ANIMAL</div>
+                       <div class="des">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                       </div>
+                       <div class="buttons">
+                           <button>Explore</button>
+                       </div>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="../src/Temporary/cubes-in-cosmic-symmetry-xk.jpg">
+                   <div class="content">
+                       <div class="author">NOTENOOK</div>
+                       <div class="title">DESIGN SLIDER</div>
+                       <div class="topic">ANIMAL</div>
+                       <div class="des">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                       </div>
+                       <div class="buttons">
+                           <button>Explore</button>
+                       </div>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="../src/Temporary/triangle-pyramid-abstract-yz.jpg">
+                   <div class="content">
+                       <div class="author">NOTENOOK</div>
+                       <div class="title">DESIGN SLIDER</div>
+                       <div class="topic">ANIMAL</div>
+                       <div class="des">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                       </div>
+                       <div class="buttons">
+                           <button>Explore</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- list thumnail -->
+           <div class="thumbnail">
+               <div class="item">
+                   <img src="../src/Temporary/3d-cubes-dark-4k-89.jpg">
+                   <div class="content">
+                       <div class="title">
+                           Name Slider
+                       </div>
+                       <div class="description">
+                           Description
+                       </div>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="../src/Temporary/abstract-layers-interwoven-5k-7s.jpg">
+                   <div class="content">
+                       <div class="title">
+                           Name Slider
+                       </div>
+                       <div class="description">
+                           Description
+                       </div>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="../src/Temporary/cubes-in-cosmic-symmetry-xk.jpg">
+                   <div class="content">
+                       <div class="title">
+                           Name Slider
+                       </div>
+                       <div class="description">
+                           Description
+                       </div>
+                   </div>
+               </div>
+               <div class="item">
+                   <img src="../src/Temporary/triangle-pyramid-abstract-yz.jpg">
+                   <div class="content">
+                       <div class="title">
+                           Name Slider
+                       </div>
+                       <div class="description">
+                           Description
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- next prev -->
+   
+           <div class="arrows">
+               <button id="prev"><</button>
+               <button id="next">></button>
+           </div>
+           <!-- time running -->
+           <div class="time"></div>
+       </div>
+   </div>
+
     <script rel="javascript" src="E:\Github\Note nook\src\script\nav.js"></script>
+    <script rel="javascript" src="../src/script/card.js"></script>
 </body>
 </html>
