@@ -5,6 +5,15 @@ body{
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
+.highlights h2{
+    margin-top: 15vh;
+    margin-left: 4vh;
+    border: none;
+    color: #86868B;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 7vh;
+}
+
 .box-carousel {
     position: absolute;
     margin-top: 12vh;
@@ -13,16 +22,11 @@ body{
 
 /* carousel */
 .carousel{
-    height: 88vh;
+    height: 80vh;
     margin-top: -50px;
-    margin-bottom: 2.5vh;
-    width: 90vw;
+    width: 100vw;
     overflow: hidden;
     position: relative;
-    border-bottom: 0.1px solid rgb(83, 90, 97);
-    border-radius: 5rem;
-    margin-left: 8.5vh;
-    margin-right: 8.5vh;
 }
 .carousel .list .item{
     width: 100%;
@@ -74,7 +78,6 @@ body{
     font-family: Poppins;
     font-weight: 500;
 }
-
 /* thumbail */
 .thumbnail{
     position: absolute;

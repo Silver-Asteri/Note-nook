@@ -1,0 +1,115 @@
+.full-story h2{
+    margin-top: 105vh;
+    margin-left: 3vh;
+    border: none;
+    color: #86868B;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 7vh;
+}
+
+.full-story h3 {
+    margin-top: 15vh;
+    margin-left: 5vh;
+    border: none;
+    color: white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 8vh;
+}
+
+.main-focus-img {
+    margin-top:5vh;
+    margin-left: 0;
+    margin-right: 0;
+    width:100vw;
+    height: 30vh;
+    border: none;
+}
+
+.main-focus-img-2 {
+    margin-top:0;
+    margin-left: 0;
+    margin-right: 0;
+    width:100vw;
+    height: 30vh;
+    border: none;
+}
+
+.main-focus-img-3 {
+    margin-top:0vh;
+    margin-left: 0;
+    margin-right: 0;
+    width:100vw;
+    height: 30vh;
+    border: none;
+}
+
+.main-focus-p1 {
+    position: absolute;
+    top: 440%;
+    color: white;
+    left: 42%;
+}
+
+.main-focus-p2 {
+    position: absolute;
+    top: 460%;
+    color: white;
+    left: 42%;
+}
+
+.explore-memory-button button {
+    position: absolute;
+    top: 480%;
+    left: 33%;
+    background-color: #2c2c2c;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4rem;
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-right: 7vh;
+    padding-bottom: 1vh;
+}
+/*Creating the button apple style, very difficult*/
+.plus {
+    position: absolute;
+    top: 11%;
+    left: 75%;
+    background-color: #0071e3;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    font-size: 2vh;
+    padding-top: 0.4vh;
+    padding-left: 1vh;
+    padding-bottom: 0.4vh;
+    padding-right: 1vh;
+}
+
+.story-2 {
+    position: absolute;
+    top: 500%;
+    width: 100vw;
+    background-color: black;
+}
+
+.story-2 h3 {
+    margin-top: 15vh;
+    margin-bottom: 7vh;
+    margin-left: 2vh;
+    border: none;
+    color: white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 7.5vh;
+}
+
+.story-2 img {
+    margin-left: 0;
+    margin-right: 0;
+    width:100vw;
+    height: 30vh;
+    border: none;
+}

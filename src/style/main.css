@@ -66,12 +66,3 @@ body {
     color: white;
     font-size: 2.4dvh;
 }
-
-.highlights h2{
-    margin-top: 15vh;
-    margin-left: 10vh;
-    border: none;
-    color: #86868B;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    font-size: 7vh;
-}

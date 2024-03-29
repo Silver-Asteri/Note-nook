@@ -1,19 +1,3 @@
-function isLikelyDesktop() {
-    return window.innerWidth > 800 && !('ontouchstart' in window || navigator.maxTouchPoints > 0);
-}
-  
-document.addEventListener('DOMContentLoaded', function() {
-    var boxCarousel = document.querySelector('.box-carousel');
-    var highlights = document.querySelector('.highlights'); // Add this line
-  
-    if (isLikelyDesktop()) {
-      boxCarousel.style.display = 'block';
-      highlights.style.display = 'block'; // And this line
-    } else {
-      boxCarousel.style.display = 'none';
-      highlights.style.display = 'none'; // And this line
-    }
-});
 
 //step 1: get DOM
 let nextDom = document.getElementById('next');

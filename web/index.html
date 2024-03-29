@@ -12,8 +12,15 @@
     <!--The main content-->
     <link rel="stylesheet" href="..\src\style\main.css">
     <!--The cards styling "get the highlights"-->
-    <link rel="stylesheet" href="../src/style/card.css">
-    <!--footer-->
+    <!-- For desktop devices -->
+    <link rel="stylesheet" href="../src/style/card-desktop.css" media="screen and (min-width: 800px)"/>
+    <!-- For mobile devices -->
+    <link rel="stylesheet" href="../src/style/card-mobile.css" media="screen and (max-width: 1024px)"/>
+    <!-- The full story for desktop-->
+    <link rel="stylesheet" href="../src/style/full-story-desktop.css" media="screen and (min-width: 800px)"/>
+    <!-- The full story for mobile-->
+    <link rel="stylesheet" href="../src/style/full-story-mobile.css" media="screen and (max-width: 1024px)"/>
+
 </head>
 <body>
     <div class="nav-container">
@@ -175,10 +182,6 @@
                        <div class="author">NOTENOOK</div>
                        <div class="title">DESIGN SLIDER</div>
                        <div class="topic">ANIMAL</div>
-                       <div class="des">
-                           <!-- description -->
-                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                       </div>
                        <div class="buttons">
                            <button>Explore</button>
                        </div>
@@ -190,9 +193,6 @@
                        <div class="author">NOTENOOK</div>
                        <div class="title">DESIGN SLIDER</div>
                        <div class="topic">ANIMAL</div>
-                       <div class="des">
-                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                       </div>
                        <div class="buttons">
                            <button>Explore</button>
                        </div>
@@ -204,9 +204,6 @@
                        <div class="author">NOTENOOK</div>
                        <div class="title">DESIGN SLIDER</div>
                        <div class="topic">ANIMAL</div>
-                       <div class="des">
-                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                       </div>
                        <div class="buttons">
                            <button>Explore</button>
                        </div>
@@ -218,9 +215,6 @@
                        <div class="author">NOTENOOK</div>
                        <div class="title">DESIGN SLIDER</div>
                        <div class="topic">ANIMAL</div>
-                       <div class="des">
-                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                       </div>
                        <div class="buttons">
                            <button>Explore</button>
                        </div>
@@ -283,6 +277,36 @@
            <!-- time running -->
            <div class="time"></div>
        </div>
+   </div>
+
+   <!--Explore the full story-->
+   <div class="full-story">
+       <h2>Explore the full story</h2>
+       <h3>Memories</h3>
+       <!--Images need to be edited-->
+       <img id="main-focus-img" class="main-focus-img" src="../src/Temporary/3d-cubes-dark-4k-89.jpg"/>
+       <!--Images need to be edited-->
+       <div class="grid-container" id="grid-container">
+           <div class="grid-item">
+                <img class="main-focus-img-2" src="../src/Temporary/cubes-in-cosmic-symmetry-xk.jpg"/>
+                <p class="main-focus-p1">Paragraph 1</p>
+            </div>
+            <div class="grid-item">
+                <img class="main-focus-img-3" src="../src/Temporary/abstract-layers-interwoven-5k-7s.jpg"/>
+                <p class="main-focus-p2">Paragraph 2</p>
+            </div>
+
+            <div class="explore-memory-button">
+                <button>
+                    <span>Explore</span>
+                    <span class="plus">+</span>
+                </button>
+            </div>
+
+            <div class="story-2">
+                <h3>Continuation</h3>
+                <img src="../src/Temporary/triangle-pyramid-abstract-yz.jpg"/>
+            </div>
    </div>
 
     <script rel="javascript" src="../src/script/nav.js"></script>
